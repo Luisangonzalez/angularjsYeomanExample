@@ -21,16 +21,8 @@ angular.module('angularjsApp')
     },true);
 
     $scope.addTodo = function(){
-
-
-
-      if ($scope.todos.indexOf($scope.todo)){
-        $scope.todo = '';
-      }else
-      {
         $scope.todos.push($scope.todo);
         $scope.todo = '';
-      }
 
     };
 
